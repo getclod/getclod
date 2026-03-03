@@ -10,7 +10,7 @@
 [![Website](https://img.shields.io/badge/clod.fun-F9F7F2?style=flat-square&logo=google-chrome&logoColor=0B4650)](https://clod.fun)
 [![X](https://img.shields.io/badge/@getclod-000?style=flat-square&logo=x&logoColor=white)](https://x.com/getclod)
 [![Docs](https://img.shields.io/badge/Docs-0B4650?style=flat-square&logo=gitbook&logoColor=white)](https://clod.fun/docs)
-[![npm](https://img.shields.io/badge/npm-clod--sdk-CB3837?style=flat-square&logo=npm&logoColor=white)](https://www.npmjs.com/package/clod-sdk)
+[![npm](https://img.shields.io/badge/npm-@clod--sdk/core-CB3837?style=flat-square&logo=npm&logoColor=white)](https://www.npmjs.com/package/@clod-sdk/core)
 
 </div>
 
@@ -19,11 +19,11 @@
 ### Quick Start
 
 ```bash
-npm install clod-sdk @solana/web3.js
+npm install @clod-sdk/core
 ```
 
 ```typescript
-import { Clod } from 'clod-sdk';
+import { Clod } from '@clod-sdk/core';
 import { Connection, Keypair } from '@solana/web3.js';
 
 const clod = new Clod({
@@ -119,7 +119,7 @@ Fees arrive in your wallet automatically.
 
 | Package | Description | Status |
 |---------|-------------|--------|
-| [`clod-sdk`](https://github.com/getclod/clod-sdk) | TypeScript SDK for Clod protocol | 🔨 In development |
+| [`@clod-sdk/core`](https://github.com/getclod/clod-sdk) | TypeScript SDK for Clod protocol | ✅ Published on npm |
 | [`clod-examples`](https://github.com/getclod/clod-examples) | Example bots, scripts & integrations | 📋 Planned |
 
 ---
